@@ -1,0 +1,101 @@
+# ===================================
+# 循途 FoloWay · Git 忽略规则
+# 结构：frontend/（uni-app + admin）+ server/（FastAPI）+ docker/ + docs/
+# ===================================
+
+# ---------- Python / FastAPI 后端 ----------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+.eggs/
+
+# 虚拟环境（三种常见命名都忽略）
+.venv/
+venv/
+env/
+ENV/
+
+# 测试 / 类型检查 / 覆盖率缓存
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+
+# Python 构建产物
+build/
+dist/
+*.manifest
+
+# ---------- Node / uni-app 前端 ----------
+node_modules/
+dist/
+unpackage/
+.vite/
+*.tsbuildinfo
+
+# HBuilderX 本地配置
+.hbuilderx/
+
+# 前端冒烟测试产物（Playwright）
+frontend/tests/smoke/.artifacts/
+playwright-report/
+test-results/
+
+# ---------- 环境变量与密钥 ----------
+# 真实配置一律不入库；模板（.env.example / .env.production.example）必须保留
+.env
+.env.local
+.env.*.local
+.env.production
+.env.production.local
+!.env.example
+!.env.production.example
+
+# 证书 / 私钥 / 签名文件
+*.pem
+*.key
+*.p12
+*.jks
+*.keystore
+
+# ---------- 运行时生成的文件 ----------
+# 用户上传文件（保留目录占位）
+server/uploads/*
+!server/uploads/.gitkeep
+uploads/*
+!uploads/.gitkeep
+
+# TTS 语音缓存（运行时自动生成）
+server/tts_cache_audio/
+
+# ---------- 日志 ----------
+*.log
+logs/
+
+# ---------- IDE / 编辑器 ----------
+.idea/
+.vscode/
+*.iml
+*.suo
+*.swp
+*.swo
+*~
+
+# ---------- 操作系统 ----------
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ---------- 临时 / 备份文件 ----------
+*.tmp
+*.bak
+*.bak[0-9]*
+*.orig
+*.rej
+~$*
