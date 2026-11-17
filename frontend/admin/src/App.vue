@@ -1,0 +1,12 @@
+<template>
+  <router-view />
+</template>
+
+<script setup>
+// 管理后台根组件
+</script>
+
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
+</style>

@@ -1,0 +1,208 @@
+{
+  "pages": [
+    {
+      "path": "pages/companion/companion",
+      "style": { "navigationStyle": "custom" }
+    },
+    {
+      "path": "pages/habit/habit",
+      "style": { "navigationBarTitleText": "习惯待办" }
+    },
+    {
+      "path": "pages/index/index",
+      "style": { "navigationBarTitleText": "和TA一起环游世界", "enablePullDownRefresh": true }
+    },
+    {
+      "path": "pages/login/login",
+      "style": { "navigationStyle": "custom" }
+    },
+    {
+      "path": "pages/login/register",
+      "style": { "navigationStyle": "custom" }
+    },
+    {
+      "path": "pages/chat/chat",
+      "style": { "navigationBarTitleText": "AI对话" }
+    },
+    {
+      "path": "pages/ai-chat/ai-chat",
+      "style": { "navigationStyle": "custom" }
+    },
+    {
+      "path": "pages/stats/stats",
+      "style": { "navigationBarTitleText": "数据统计" }
+    },
+    {
+      "path": "pages/profile/profile",
+      "style": { "navigationBarTitleText": "个人设置" }
+    },
+    {
+      "path": "pages/badge/badge",
+      "style": { "navigationBarTitleText": "我的徽章", "enablePullDownRefresh": true }
+    },
+    {
+      "path": "pages/avatar-live/avatar-live",
+      "style": { "navigationStyle": "custom" }
+    },
+    {
+      "path": "pages/settings/settings",
+      "style": { "navigationBarTitleText": "全局设置" }
+    },
+    {
+      "path": "pages/profile-edit/profile-edit",
+      "style": { "navigationBarTitleText": "编辑资料" }
+    },
+    {
+      "path": "pages/box/box",
+      "style": { "navigationBarTitleText": "每日盲盒" }
+    },
+    {
+      "path": "pages/box-warehouse/box-warehouse",
+      "style": { "navigationBarTitleText": "我的仓库" }
+    },
+    {
+      "path": "pages/capsule/capsule",
+      "style": { "navigationBarTitleText": "时光胶囊" }
+    },
+    {
+      "path": "pages/fragment/fragment",
+      "style": { "navigationBarTitleText": "碎片图鉴" }
+    },
+    {
+      "path": "pages/postcard/postcard",
+      "style": { "navigationBarTitleText": "每周明信片" }
+    },
+    {
+      "path": "pages/personality-quiz/personality-quiz",
+      "style": { "navigationStyle": "custom" }
+    },
+    {
+      "path": "pages/character-gallery/character-gallery",
+      "style": { "navigationBarTitleText": "循途画廊" }
+    },
+    {
+      "path": "pages/character-workshop/character-workshop",
+      "style": { "navigationBarTitleText": "循途工坊" }
+    },
+    {
+      "path": "pages/emotion/emotion",
+      "style": { "navigationBarTitleText": "情绪树洞" }
+    },
+    {
+      "path": "pages/meditation/meditation",
+      "style": { "navigationBarTitleText": "正念放松" }
+    },
+    {
+      "path": "pages/walk/walk",
+      "style": { "navigationBarTitleText": "环球行走" }
+    },
+    {
+      "path": "pages/growth-track/growth-track",
+      "style": { "navigationBarTitleText": "成长足迹" }
+    },
+    {
+      "path": "pages/growth-archive/growth-archive",
+      "style": { "navigationBarTitleText": "成长档案" }
+    },
+    {
+      "path": "pages/discover/discover",
+      "style": { "navigationStyle": "custom" }
+    },
+    {
+      "path": "pages/create/create",
+      "style": { "navigationStyle": "custom" }
+    },
+    {
+      "path": "pages/companion/companion-running",
+      "style": { "navigationStyle": "custom" }
+    },
+    {
+      "path": "pages/role-select/role-select",
+      "style": { "navigationStyle": "custom" }
+    },
+    {
+      "path": "pages/moments/moments",
+      "style": { "navigationBarTitleText": "朋友圈", "enablePullDownRefresh": true }
+    },
+    {
+      "path": "pages/moments/moment-publish",
+      "style": { "navigationBarTitleText": "发表" }
+    },
+    {
+      "path": "pages/gacha/gacha",
+      "style": { "navigationStyle": "custom" }
+    },
+    {
+      "path": "pages/world/world",
+      "style": { "navigationStyle": "custom" }
+    },
+    {
+      "path": "pages/flower/flower",
+      "style": { "navigationBarTitleText": "和TA一起环游世界" }
+    },
+    {
+      "path": "pages/activity/activity",
+      "style": { "navigationStyle": "custom", "enablePullDownRefresh": true }
+    },
+    {
+      "path": "pages/dream-ring/dream-ring",
+      "style": { "navigationStyle": "custom" }
+    },
+    {
+      "path": "pages/schedule/schedule",
+      "style": { "navigationStyle": "custom" }
+    },
+    {
+      "path": "pages/group-chat/group-chat",
+      "style": { "navigationBarTitleText": "多角色群聊" }
+    },
+    {
+      "path": "pages/mall/mall",
+      "style": { "navigationBarTitleText": "金币商城" }
+    },
+    {
+      "path": "pages/bill/bill",
+      "style": { "navigationBarTitleText": "金币账单" }
+    },
+    {
+      "path": "pages/world-space/world-list",
+      "style": { "navigationStyle": "custom" }
+    },
+    {
+      "path": "pages/world-space/world-detail",
+      "style": { "navigationStyle": "custom" }
+    },
+    {
+      "path": "pages/vip/index",
+      "style": { "navigationBarTitleText": "VIP会员" }
+    },
+    {
+      "path": "pages/vip/pay-success",
+      "style": { "navigationBarTitleText": "支付成功" }
+    },
+    {
+      "path": "pages/memory/memory",
+      "style": { "navigationBarTitleText": "记忆管理" }
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "循途",
+    "navigationBarBackgroundColor": "#F8F9FA",
+    "backgroundColor": "#F8F9FA"
+  },
+  "tabBar": {
+    "color": "#999999",
+    "selectedColor": "#6B8E7B",
+    "backgroundColor": "#FFFFFF",
+    "borderStyle": "black",
+    "list": [
+      { "pagePath": "pages/companion/companion", "text": "陪伴", "iconPath": "static/images/tab-habit.png", "selectedIconPath": "static/images/tab-habit-active.png" },
+      { "pagePath": "pages/discover/discover", "text": "发现", "iconPath": "static/images/tab-home.png", "selectedIconPath": "static/images/tab-home-active.png" },
+      { "pagePath": "pages/create/create", "text": "", "iconPath": "static/images/tab-plus.png", "selectedIconPath": "static/images/tab-plus-active.png" },
+      { "pagePath": "pages/chat/chat", "text": "消息", "iconPath": "static/images/tab-chat.png", "selectedIconPath": "static/images/tab-chat-active.png" },
+      { "pagePath": "pages/profile/profile", "text": "我的", "iconPath": "static/images/tab-profile.png", "selectedIconPath": "static/images/tab-profile-active.png" }
+    ]
+  },
+  "uniIdRouter": {}
+}

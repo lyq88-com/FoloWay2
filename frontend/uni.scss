@@ -1,0 +1,70 @@
+/**
+ * uni-app 全局样式变量
+ * 可在任意 .vue 文件的 <style> 中直接使用
+ */
+
+/* 主题色 */
+$primary-color: #6B8E7B;
+$primary-light: #A8C9B8;
+$primary-dark: #4A6B5A;
+
+/* 背景色 */
+$bg-color: #F8F9FA;
+$bg-white: #FFFFFF;
+
+/* 文字色 */
+$text-primary: #333333;
+$text-secondary: #8f8f94;
+$text-light: #999999;
+
+/* 边框 */
+$border-color: #E8E8E8;
+
+/* 功能色 */
+$success-color: #6B8E7B;
+$warning-color: #FFD93D;
+$danger-color: #FF6B6B;
+$info-color: #909399;
+
+/* 习惯类型背景色 */
+$habit-morning: #FFD93D;
+$habit-sport: #6B8E7B;
+$habit-read: #7B68EE;
+$habit-drink: #4FC3F7;
+$habit-sleep: #5C6BC0;
+$habit-meditate: #AB47BC;
+$habit-write: #FF7043;
+$habit-code: #26A69A;
+
+/* 圆角 */
+$radius-sm: 8rpx;
+$radius-md: 16rpx;
+$radius-lg: 24rpx;
+
+/* 间距 */
+$spacing-xs: 8rpx;
+$spacing-sm: 16rpx;
+$spacing-md: 24rpx;
+$spacing-lg: 32rpx;
+$spacing-xl: 48rpx;
+
+/* === 按钮统一样式变量（配合 App.vue 中 .xt-btn* 全局工具类使用） === */
+$btn-height: 88rpx;              /* 主按钮高度 */
+$btn-height-sm: 64rpx;           /* 次级/小按钮高度 */
+$btn-radius: 44rpx;              /* 按钮圆角（胶囊形） */
+$btn-font-size: 30rpx;
+$btn-font-size-sm: 24rpx;
+$btn-primary-bg: $primary-color;         /* 主按钮：主题绿 */
+$btn-primary-bg-dark: $primary-dark;     /* 主按钮按下/深色 */
+$btn-outline-border: $primary-color;     /* 描边按钮边框色 */
+$btn-danger-bg: $danger-color;           /* 危险操作按钮 */
+$btn-disabled-opacity: 0.5;
+
+/* === 输入框统一样式变量（配合 App.vue 中 .xt-input 全局工具类使用） === */
+$input-height: 88rpx;
+$input-radius: 20rpx;
+$input-bg: #F5F6F7;
+$input-border: #E0E0E0;
+$input-border-focus: $primary-color;
+$input-placeholder: #B0B0B5;
+$input-font-size: 28rpx;
