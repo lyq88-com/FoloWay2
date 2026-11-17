@@ -1,0 +1,64 @@
+# AI习惯伙伴 - Docker Compose (阶段1基础版, 阶段7完善)
+# 一键启动 MySQL + Redis + 后端 + 前端 + 管理后台
+version: '3.8'
+
+services:
+  # ---------- MySQL ----------
+  mysql:
+    image: mysql:8.0
+    container_name: ahp-mysql
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: ai_habit_partner
+      MYSQL_CHARSET: utf8mb4
+      MYSQL_COLLATION: utf8mb4_unicode_ci
+    ports:
+      - "3306:3306"
+    volumes:
+      - mysql_data:/var/lib/mysql
+      - ./server/sql/init.sql:/docker-entrypoint-initdb.d/init.sql
+    command: --character-set-server=utf8mb4 --collation-server=utf8mb4_unicode_ci
+
+  # ---------- Redis ----------
+  redis:
+    image: redis:7-alpine
+    container_name: ahp-redis
+    restart: always
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+
+  # ---------- FastAPI 后端 (阶段7完善Dockerfile) ----------
+  # backend:
+  #   build: ./server
+  #   container_name: ahp-backend
+  #   restart: always
+  #   ports:
+  #     - "8000:8000"
+  #   depends_on:
+  #     - mysql
+  #     - redis
+  #   env_file:
+  #     - ./server/.env
+
+  # ---------- 用户端前端 (阶段7完善) ----------
+  # frontend:
+  #   build: ./frontend
+  #   container_name: ahp-frontend
+  #   restart: always
+  #   ports:
+  #     - "5173:80"
+
+  # ---------- 管理后台 (阶段7完善) ----------
+  # admin:
+  #   build: ./admin
+  #   container_name: ahp-admin
+  #   restart: always
+  #   ports:
+  #     - "3000:80"
+
+volumes:
+  mysql_data:
+  redis_data:
